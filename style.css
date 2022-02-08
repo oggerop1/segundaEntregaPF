@@ -1,0 +1,93 @@
+.container{
+    box-shadow: 0px 15px 25px -4px rgba(30,30,60,0.25);
+   }
+.col{
+    text-align: center;
+}
+
+img{
+    width:100%;
+}
+
+button {
+    height: 50px;
+    width: 300px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+/*estilos index*/
+#index-img2{
+    
+    width: 40%; 
+    box-shadow: 0px 15px 25px -4px rgba(30,30,60,0.25);
+}
+
+
+.btn {
+    
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   .btn:hover {
+    color: black;
+   }
+   
+    .btn:after {
+    content: "";
+    background: #0099ff;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+/*****************************/
+  
+
+   /*footer*/
+   .footer-cont{
+    background-color: #1c2331;
+   }
+
+   .footer-section-redes-sociales{
+    background-color:#0099ff;
+   }
+
+   .footer-hr{
+    width: 60px; 
+    background-color: #0099ff; 
+    height: 2px;
+   }
+
+   .footer-div-Copyright{
+    background-color: rgba(0, 0, 0, 0.2);
+   }
+
+   /*estilos vida.html*/
+   .vida-img1{
+       width: 30%;
+       align-content: center;
+   }
+
+   /*estilos*/
