@@ -26,6 +26,11 @@ h1{
     box-shadow: 0px 15px 25px -4px rgba(30,30,60,0.25);
 }
 
+#index-img2:hover{
+    backface-visibility: hidden;
+        transform: scale(1.15, 1.15);
+        opacity: 1;
+}
 
 .btn {
     
@@ -89,5 +94,46 @@ h1{
        width: 30%;
        align-content: center;
    }
+ 
+.vida-img1:hover{
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
 
-   /*estilos*/
+   /*estilos comercio*/
+.comercio-img1 {
+       width: 50%;
+   }
+.comercio-img1:hover {
+         backface-visibility: hidden;
+        transform: scale(1.15, 1.15);
+        opacity: 1;
+   }
+
+   /*estilos autos*/
+.auto-img1{
+    width: 50%;
+    align-content: center;
+   }
+
+.auto-parrafo1{
+    animation-duration: 20s;
+    animation-name: parrafomoviendose;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes parrafomoviendose{
+    from {
+      margin-left:100%;
+      width:300%
+    }
+  
+    to {
+     margin-left:0%;
+     width:100%;
+   }
+  }
